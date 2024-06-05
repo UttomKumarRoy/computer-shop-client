@@ -13,7 +13,7 @@ const GoogleLogin = () => {
           name: data?.user?.displayName,
           image: data?.user?.photoURL,
         };
-        fetch("https://computer-shop-server-wk4t.onrender.com/user", {
+        fetch("https://computer-shop-backend.onrender.com/user", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

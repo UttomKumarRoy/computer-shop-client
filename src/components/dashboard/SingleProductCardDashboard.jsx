@@ -8,7 +8,7 @@ const SingleProductCardDashboard = ({ computer, onDelete }) => {
   const { _id, title, brand, price, description, image_url } = computer;
 
   const handleDelete = async () => {
-    await fetch(`https://computer-shop-server-wk4t.onrender.com/computer/${_id}`, {
+    await fetch(`https://computer-shop-backend.onrender.com/computer/${_id}`, {
       method: "DELETE",
       headers: {
         "Content-type": "application/json",

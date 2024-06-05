@@ -7,7 +7,7 @@ const Dashboard = () => {
   const [userInfo, setUserInfo] = useState({});
 
   useEffect(() => {
-    fetch(`https://computer-shop-server-wk4t.onrender.com/user/${user?.email}`)
+    fetch(`https://computer-shop-backend.onrender.com/user/${user?.email}`)
       .then((res) => res.json())
       .then((data) => setUserInfo(data));
   }, [user]);

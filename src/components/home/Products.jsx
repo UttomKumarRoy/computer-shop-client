@@ -15,7 +15,7 @@ const Products = () => {
     // Fetch data from the API
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://computer-shop-server-wk4t.onrender.com/computer');
+        const response = await axios.get('https://computer-shop-backend.onrender.com/computer');
         setProducts(response.data);
         setFilteredProducts(response.data); 
       } catch (error) {

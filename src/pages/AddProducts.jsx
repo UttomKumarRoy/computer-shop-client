@@ -14,7 +14,7 @@ const AddProducts = () => {
 
     const data = { title, brand, price, description, image_url };
 
-    await fetch("https://computer-shop-server-wk4t.onrender.com/computer", {
+    await fetch("https://computer-shop-backend.onrender.com/computer", {
       method: "POST",
       headers: {
         "Content-type": "application/json",

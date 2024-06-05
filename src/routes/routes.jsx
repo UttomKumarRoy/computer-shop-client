@@ -30,7 +30,7 @@ export const router = createBrowserRouter([
         element: <ProductDetails />,
         loader: ({ params }) =>
           fetch(
-            `https://computer-shop-server-wk4t.onrender.com/computer/${params.id}`
+            `https://computer-shop-backend.onrender.com/computer/${params.id}`
           ),
       },
       {
@@ -73,7 +73,7 @@ export const router = createBrowserRouter([
         ),
         loader: ({ params }) =>
           fetch(
-            `https://computer-shop-server-wk4t.onrender.com/user/get/${params.id}`
+            `https://computer-shop-backend.onrender.com/user/get/${params.id}`
           ),
       },
       {
@@ -101,7 +101,7 @@ export const router = createBrowserRouter([
         ),
         loader: ({ params }) =>
           fetch(
-            `https://computer-shop-server-wk4t.onrender.com/computer/${params.id}`
+            `https://computer-shop-backend.onrender.com/computer/${params.id}`
           ),
       },
     ],

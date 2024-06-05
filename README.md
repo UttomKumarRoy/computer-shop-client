@@ -20,7 +20,7 @@ Ensure you have the following installed on your machine:
 
     ```sh
     git clone https://github.com/UttomKumarRoy/computer-shop-client
-    cd your-repo-name
+    cd computer-shop-client
     ```
 
 2. **Install the dependencies:**
@@ -59,4 +59,4 @@ Ensure you have the following installed on your machine:
 To start the development server, run:
 
 ```sh
-npm start
+npm run dev

@@ -26,7 +26,7 @@ const EditProducts = () => {
     const data = { title, brand, price, description, image_url };
     
     await fetch(
-      `https://computer-shop-server-wk4t.onrender.com/computer/${computer._id}`,
+      `https://computer-shop-backend.onrender.com/computer/${computer._id}`,
       {
         method: "PATCH",
         headers: {

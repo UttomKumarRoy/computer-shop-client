@@ -33,7 +33,7 @@ const Registration = () => {
             email: data?.user?.email,
             name: name,
           };
-          fetch("https://computer-shop-server-wk4t.onrender.com/user", {
+          fetch("https://computer-shop-backend.onrender.com/user", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",

@@ -25,7 +25,7 @@ const Login = () => {
         const userInfo = {
           email: data?.user?.email
         };
-        fetch("https://computer-shop-server-wk4t.onrender.com/user", {
+        fetch("https://computer-shop-backend.onrender.com/user", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

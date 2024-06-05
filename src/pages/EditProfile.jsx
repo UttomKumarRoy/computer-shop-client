@@ -24,7 +24,7 @@ console.log(data);
     };
 
     fetch(
-      `https://computer-shop-server-wk4t.onrender.com/user/${data?.email}`,
+      `https://computer-shop-backend.onrender.com/user/${data?.email}`,
       {
         method: "PATCH",
         headers: {
